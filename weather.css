@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .app {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .search {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  input {
+    padding: 0.7rem 1.5rem;
+    font-size: 1.2rem;
+    border-radius: 25px;
+    border: none;
+    background: rgba(233, 228, 228, 0.482);
+    color: #fff;
+  }
+  ::placeholder {
+      color: #f8f8f8;
+    
+  }
+  
+  .container {
+    max-width: 400px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 12px;
+    background-color: rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.535);
+  }
+  
+  .top {
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #bbb;
+  }
+  
+  .temp {
+    font-size: 3rem;
+    color: #fff;
+  }
+  
+  .description {
+    text-transform: capitalize;
+    color: #bbb;
+  }
+  
+  .bottom {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 100%;
+    padding: 2rem;
+    border-radius: 12px;
+    background-color: rgba(244, 231, 231, 0.698);
+  }
+  
+  .weather-info {
+    flex: 1;
+  }
+  
+  .bold {
+    font-weight: 700;
+  }
+  
+  
